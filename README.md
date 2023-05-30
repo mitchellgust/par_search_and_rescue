@@ -1,24 +1,28 @@
 # RMIT COSC2814 PAR'23 ROS Navigation & Search Challenge
+
+## Overview
+
 This report details the work achieved by Group 11 in the ROS Navigation & Search Challenge.
 
-It details the design choices we made, our code structure and package usage, our evaluation on its performance and a reflection on the adaptions needs to construct a stronger solution.
+The main challenges of this assignment required navigation within an unknown space, classification and localisation of hazard signs, and the production of a map that reflects the environment.
 
-1. [Introduction](#Introduction)
-2. [Description of ROS Package](#Description-of-ROS-Package)
-3. [ROS Nodes](#ROS-Nodes)
-4. [Analysis and Evaluation of the Package](#Analysis-and-Evaluation-of-the-Software)
+It details the design choices we made, our code structure and package usage, our evaluation on its performance during the assessment and a reflection on the adaptions needed to construct a stronger solution.
+
+Tracking Unknown Environment |  Map Production           | 1 of 12 Detectable Hazard Signs
+:---------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/archmod/PAR_Search_And_Rescue/blob/e5e52bbbf1b730ba69a00d8610ea2921bca00ef0/wiki_media/detect_hazard_midturn.gif)  |  ![](https://github.com/archmod/PAR_Search_And_Rescue/blob/be4fc55b184ba44455c2fe9994246011cc4203d5/wiki_media/run2_map_generation.png) | <img src="https://github.com/s3782095/par_search_and_rescue/blob/216a313fec01c24c019dbe3df04a6d403d795541/images/markers/hazard/placard-7-radioactive.png" width=400  >
+
+## Sections
+
+1. [Description of ROS Package](#Description-of-ROS-Package)
+2. [ROS Nodes](#ROS-Nodes)
+3. [Analysis and Evaluation of the Package](#Analysis-and-Evaluation-of-the-Software)
 
 ## Team Members
 
 * Max Foord - s3888349@student.rmit.edu.au - s3888349
 * Joshua Barry - s3718861@student.rmit.edu.au - s3718861
 * Mitchell Gust - s3782095@student.rmit.edu.au - s3782095
-
-## Introduction
-
-The task for Assignment 1 was to perform a series of path finding, image recognition and navigation challenges. 
-
-Our group employed a vast array of robotic techniques to achieve our result of accurate return to home, recognition of 3 out of 5 hazard markers and successful navigation throughout the maze. 
 
 ## Description of ROS Package
 ### Overview
