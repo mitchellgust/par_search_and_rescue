@@ -1,10 +1,5 @@
 # RMIT COSC2814 PAR'23 ROS Navigation & Search Challenge
-
-> ❗️ Attention
-> View the Report as Intended on Our Git Repo: [GitHub Wiki](https://github.com/archmod/PAR_Search_And_Rescue/wiki)
-> ---
-
-This Wiki report details the work achieved by Group 11 in the ROS Navigation & Search Challenge.
+This report details the work achieved by Group 11 in the ROS Navigation & Search Challenge.
 
 It details the design choices we made, our code structure and package usage, our evaluation on its performance and a reflection on the adaptions needs to construct a stronger solution.
 
@@ -17,7 +12,7 @@ It details the design choices we made, our code structure and package usage, our
 
 * Max Foord - s3888349@student.rmit.edu.au - s3888349
 * Joshua Barry - s3718861@student.rmit.edu.au - s3718861
-* Mitchell Joseph Gust - s3782095@student.rmit.edu.au - S3782095
+* Mitchell Gust - s3782095@student.rmit.edu.au - s3782095
 
 ## Introduction
 
