@@ -8,7 +8,7 @@ The main challenges of this assignment required navigation within an unknown spa
 
 It details the design choices we made, our code structure and package usage, our evaluation on its performance during the assessment and a reflection on the adaptions needed to construct a stronger solution.
 
-Tracking Unknown Environment |  Map Production           | 1 of 12 Detectable Hazard Signs
+Exploring Unknown Environment |  Map Production           | 1 of 12 Detectable Hazard Signs
 :---------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/archmod/PAR_Search_And_Rescue/blob/e5e52bbbf1b730ba69a00d8610ea2921bca00ef0/wiki_media/detect_hazard_midturn.gif)  |  ![](https://github.com/archmod/PAR_Search_And_Rescue/blob/be4fc55b184ba44455c2fe9994246011cc4203d5/wiki_media/run2_map_generation.png) | <img src="https://github.com/s3782095/par_search_and_rescue/blob/216a313fec01c24c019dbe3df04a6d403d795541/images/markers/hazard/placard-7-radioactive.png" width=400  >
 
